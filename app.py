@@ -120,3 +120,5 @@ if st.button("🧹 Clear History"):
     history.clear()  # Clear the deque object directly
     st.session_state.history = history  # Update the session state
     st.rerun()  # Force immediate rerun (new method)
+
+    
